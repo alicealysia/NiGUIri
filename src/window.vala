@@ -21,7 +21,6 @@
 [GtkTemplate (ui = "/au/alysia/niguiri/window.ui")]
 public class Niguiri.Window : Adw.ApplicationWindow {
     [GtkChild]
-    private unowned Gtk.Label label;
 
     public Window (Gtk.Application app) {
         Object (application: app);
