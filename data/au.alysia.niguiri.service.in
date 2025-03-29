@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=au.alysia.niguiri
+Exec=@bindir@/niguiri --gapplication-service
