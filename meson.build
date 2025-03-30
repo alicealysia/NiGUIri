@@ -8,7 +8,6 @@ i18n = import('i18n')
 gnome = import('gnome')
 valac = meson.get_compiler('vala')
 
-
 srcdir = meson.project_source_root() / 'src'
 
 config_h = configuration_data()
@@ -16,7 +15,6 @@ config_h.set_quoted('PACKAGE_VERSION', meson.project_version ())
 config_h.set_quoted('GETTEXT_PACKAGE', 'niguiri')
 config_h.set_quoted('LOCALEDIR', get_option('prefix') / get_option('localedir'))
 configure_file(output: 'config.h', configuration: config_h)
-
 config_dep = valac.find_library ('config', dirs: srcdir)
 config_inc = include_directories('.')
 
