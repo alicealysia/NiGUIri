@@ -18,7 +18,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
+using GLib;
+using Gdk; 
+
 public class Niguiri.Application : Adw.Application {
+
     public Application () {
         Object (
             application_id: "au.alysia.niguiri",
@@ -27,38 +31,13 @@ public class Niguiri.Application : Adw.Application {
         );
     }
 
-    construct {
-        ActionEntry[] action_entries = {
-            { "about", this.on_about_action },
-            { "preferences", this.on_preferences_action },
-            { "quit", this.quit }
-        };
-        this.add_action_entries (action_entries, this);
-        this.set_accels_for_action ("app.quit", {"<primary>q"});
-    }
-
     public override void activate () {
         base.activate ();
-        var win = this.active_window ?? new Niguiri.Window (this);
-        win.present ();
-    }
-
-    private void on_about_action () {
-        string[] developers = { "Alice" };
-        var about = new Adw.AboutDialog () {
-            application_name = "niguiri",
-            application_icon = "au.alysia.niguiri",
-            developer_name = "Alice",
-            translator_credits = _("translator-credits"),
-            version = "0.1.0",
-            developers = developers,
-            copyright = "© 2025 Alice",
-        };
-
-        about.present (this.active_window);
-    }
-
-    private void on_preferences_action () {
-        message ("app.preferences action activated");
+        ListModel monitorList = Display.get_default ().get_monitors ();
+        uint monitorCount = monitorList.get_n_items ();
+        for (uint i = 0; i < monitorCount; i ++) {
+            Monitor monitor = monitorList.get_item (i) as Monitor;
+        }
+        new Niguiri.Window (this).present ();
     }
 }
