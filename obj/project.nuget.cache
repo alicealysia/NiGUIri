@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "cAM5Y6BJIDc=",
+  "success": true,
+  "projectFilePath": "/home/alice/RiderProjects/NiGUIri/NiGUIri/NiGUIri.csproj",
+  "expectedPackageFiles": [
+    "/home/alice/.nuget/packages/cstools/7.24.0/cstools.7.24.0.nupkg.sha512",
+    "/home/alice/.nuget/packages/gtk4dotnet/7.0.33-beta-33/gtk4dotnet.7.0.33-beta-33.nupkg.sha512",
+    "/home/alice/.nuget/packages/kadlet/0.1.0/kadlet.0.1.0.nupkg.sha512",
+    "/home/alice/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/home/alice/.nuget/packages/rena.interop.xkbcommon/1.0.1/rena.interop.xkbcommon.1.0.1.nupkg.sha512",
+    "/home/alice/.nuget/packages/system.linq.async/6.0.1/system.linq.async.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,223 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".git\COMMIT_EDITMSG" />
+      <Content Include=".git\config" />
+      <Content Include=".git\description" />
+      <Content Include=".git\FETCH_HEAD" />
+      <Content Include=".git\HEAD" />
+      <Content Include=".git\hooks\README.sample" />
+      <Content Include=".git\index" />
+      <Content Include=".git\info\exclude" />
+      <Content Include=".git\logs\HEAD" />
+      <Content Include=".git\logs\refs\heads\master" />
+      <Content Include=".git\logs\refs\remotes\origin\HEAD" />
+      <Content Include=".git\logs\refs\remotes\origin\master" />
+      <Content Include=".git\modules\astal\config" />
+      <Content Include=".git\modules\astal\description" />
+      <Content Include=".git\modules\astal\FETCH_HEAD" />
+      <Content Include=".git\modules\astal\HEAD" />
+      <Content Include=".git\modules\astal\hooks\applypatch-msg.sample" />
+      <Content Include=".git\modules\astal\hooks\commit-msg.sample" />
+      <Content Include=".git\modules\astal\hooks\fsmonitor-watchman.sample" />
+      <Content Include=".git\modules\astal\hooks\post-update.sample" />
+      <Content Include=".git\modules\astal\hooks\pre-applypatch.sample" />
+      <Content Include=".git\modules\astal\hooks\pre-commit.sample" />
+      <Content Include=".git\modules\astal\hooks\pre-merge-commit.sample" />
+      <Content Include=".git\modules\astal\hooks\pre-push.sample" />
+      <Content Include=".git\modules\astal\hooks\pre-rebase.sample" />
+      <Content Include=".git\modules\astal\hooks\pre-receive.sample" />
+      <Content Include=".git\modules\astal\hooks\prepare-commit-msg.sample" />
+      <Content Include=".git\modules\astal\hooks\push-to-checkout.sample" />
+      <Content Include=".git\modules\astal\hooks\sendemail-validate.sample" />
+      <Content Include=".git\modules\astal\hooks\update.sample" />
+      <Content Include=".git\modules\astal\index" />
+      <Content Include=".git\modules\astal\info\exclude" />
+      <Content Include=".git\modules\astal\logs\HEAD" />
+      <Content Include=".git\modules\astal\logs\refs\heads\feat\niri" />
+      <Content Include=".git\modules\astal\logs\refs\heads\main" />
+      <Content Include=".git\modules\astal\logs\refs\heads\tray\async-dbus" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\feat\clipboard" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\feat\haskell-bindings" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\feat\python" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\feat\scroller" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\feat\wireplumber" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\HEAD" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\main" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\origin\tray\async-dbus" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\sameoldlab\feat\niri" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\sameoldlab\HEAD" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\sameoldlab\main" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\feat\clipboard" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\feat\haskell-bindings" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\feat\python" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\feat\scroller" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\feat\wireplumber" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\HEAD" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\main" />
+      <Content Include=".git\modules\astal\logs\refs\remotes\upstream\tray\async-dbus" />
+      <Content Include=".git\modules\astal\objects\09\fb8d433c4ffb51bf93b6047b2cefaea85013c5" />
+      <Content Include=".git\modules\astal\objects\11\93a5c855e2c5cedfb6bec8bb9f831c823686c7" />
+      <Content Include=".git\modules\astal\objects\11\b0ebe336a9553a88d289c46690ae27c1eecad8" />
+      <Content Include=".git\modules\astal\objects\16\66e17895253429ccd39e2edfd7dd7dfd14446e" />
+      <Content Include=".git\modules\astal\objects\1e\a5b71d802be646bcd8dac1df948cd5cceed28b" />
+      <Content Include=".git\modules\astal\objects\21\6066cd8fec6f264f69a404d6ed3d6f203e73ee" />
+      <Content Include=".git\modules\astal\objects\2a\cea639f34ab58c7d6ac40183e3ca865f175b6d" />
+      <Content Include=".git\modules\astal\objects\35\963b89779c658fd0da6a599b36fc0417a65c26" />
+      <Content Include=".git\modules\astal\objects\37\8a8fd6efc2f7ca947cc664e9fc0e145084bb4a" />
+      <Content Include=".git\modules\astal\objects\39\8326dcebab28aba140d7f926ccc8c38a5636e7" />
+      <Content Include=".git\modules\astal\objects\3d\a61377767c891a2a0fba4d8f8d923eb71bdd8e" />
+      <Content Include=".git\modules\astal\objects\4d\5d9232f20f35ca9b1b4c3961419ab29120f14f" />
+      <Content Include=".git\modules\astal\objects\52\7ac4783e93a6d5eba5f4d9e88aa818d6500e31" />
+      <Content Include=".git\modules\astal\objects\55\fb0c50f79919e25cba3020bb7c4f9a27663cf7" />
+      <Content Include=".git\modules\astal\objects\5d\757a3158b7083a3ccc3401ed8fdf2aca889cda" />
+      <Content Include=".git\modules\astal\objects\5f\d0676cf80af4dedd1b3b31673542b342460c81" />
+      <Content Include=".git\modules\astal\objects\62\a7bc80adf9f287e1404abbe487fcef10ec3e3b" />
+      <Content Include=".git\modules\astal\objects\66\16d07a9a90bcfa9863608b7ead6772e189fdd1" />
+      <Content Include=".git\modules\astal\objects\6d\6a3901b7f2c608c8505ae91cb7f1fc232f8650" />
+      <Content Include=".git\modules\astal\objects\71\4f4bc6b577ec9ee5d2c3b164ae84459b08e8cc" />
+      <Content Include=".git\modules\astal\objects\78\1ca524f36a634bb15e61fcc95e9ecc3afec0d8" />
+      <Content Include=".git\modules\astal\objects\7b\1b98aa0763e2d31ae4badeee6f43bfddd0f5ee" />
+      <Content Include=".git\modules\astal\objects\7d\3e3c8446d25a148ec5fcb69d3274db457c4737" />
+      <Content Include=".git\modules\astal\objects\7f\6f562bbcc25141782df86dbecab3145cc3c553" />
+      <Content Include=".git\modules\astal\objects\7f\f400122ba065a4929d700dfee65b21cb621a7f" />
+      <Content Include=".git\modules\astal\objects\81\044a8995f8b73611556ff79268a4e538287602" />
+      <Content Include=".git\modules\astal\objects\8a\a8a9d606d18b093fcd015b59a7deb6b076f766" />
+      <Content Include=".git\modules\astal\objects\8e\275a5a2b1ba1a3e623c34e0a2174c88edf314f" />
+      <Content Include=".git\modules\astal\objects\90\3d0360858056fd3b4ad7a805c6f8356e41b0a6" />
+      <Content Include=".git\modules\astal\objects\93\e1fc07a91559a92a6d205e155386e20559aad6" />
+      <Content Include=".git\modules\astal\objects\95\3328859180ced22590132577d3ce0dd2d29bea" />
+      <Content Include=".git\modules\astal\objects\96\11f190a6bd49bc0118c54759ad69e8a463b42f" />
+      <Content Include=".git\modules\astal\objects\96\eb3c7fe20f6dce44c0b1bd9d09e7643614aa07" />
+      <Content Include=".git\modules\astal\objects\9c\a65d71730f61eb1dbce15db34d9ce71a791b41" />
+      <Content Include=".git\modules\astal\objects\a9\47458e494057c982ab2ab9845d6feda6651e79" />
+      <Content Include=".git\modules\astal\objects\b1\60eda2dd94ff8f4bd0bc5fe5eb9a04f3c30d4c" />
+      <Content Include=".git\modules\astal\objects\b8\9d1fb117bcddf7e7d8164c5ff954f1c13f7ee4" />
+      <Content Include=".git\modules\astal\objects\c1\f05d50c5f0726fca0a518dc6fa0583e0fe17dc" />
+      <Content Include=".git\modules\astal\objects\c4\1616c14f7bcc40eeef0929b49826d23af0c872" />
+      <Content Include=".git\modules\astal\objects\cc\34e502e341ca6dbd6b187667708dc1259920fa" />
+      <Content Include=".git\modules\astal\objects\cc\86a914b5250ff7baaef22016f16b12d361607a" />
+      <Content Include=".git\modules\astal\objects\d0\a8c8b6a49ea9538bdb427563be90d72c370ee9" />
+      <Content Include=".git\modules\astal\objects\dd\3e4ae873e2bb609c9765d11667ece45f28e535" />
+      <Content Include=".git\modules\astal\objects\e3\95e133c42f682ab05384abef570fac2b4b0391" />
+      <Content Include=".git\modules\astal\objects\ed\e07ebb51d75190c2233918c1bb55d647a2cea8" />
+      <Content Include=".git\modules\astal\objects\ef\3da1a1a067e3670534d185047e1653c0fd380d" />
+      <Content Include=".git\modules\astal\objects\f5\823e561730be89010c4db2473f27637baf7546" />
+      <Content Include=".git\modules\astal\objects\f6\ec2c1f094456aa36b40c29468830850032b4ac" />
+      <Content Include=".git\modules\astal\objects\fa\dce52dfdb99509f69d4d393c54e2bca8bc9495" />
+      <Content Include=".git\modules\astal\objects\fc\65a0f954bb8c26447edd2f383fd23c716fa3a2" />
+      <Content Include=".git\modules\astal\objects\fc\e122fa58f633fd3750f3c5d63a1c8d085edd9e" />
+      <Content Include=".git\modules\astal\objects\fe\897ebb52012b11bd32d920b8b18b73ea676eef" />
+      <Content Include=".git\modules\astal\objects\ff\99ee89ecde95309059545ab00f859e4e299f7d" />
+      <Content Include=".git\modules\astal\objects\pack\pack-5ea00798fe042dd4f376cbff4b7d99feb0980b02.idx" />
+      <Content Include=".git\modules\astal\objects\pack\pack-5ea00798fe042dd4f376cbff4b7d99feb0980b02.pack" />
+      <Content Include=".git\modules\astal\objects\pack\pack-5ea00798fe042dd4f376cbff4b7d99feb0980b02.rev" />
+      <Content Include=".git\modules\astal\ORIG_HEAD" />
+      <Content Include=".git\modules\astal\packed-refs" />
+      <Content Include=".git\modules\astal\refs\heads\feat\niri" />
+      <Content Include=".git\modules\astal\refs\heads\main" />
+      <Content Include=".git\modules\astal\refs\remotes\origin\HEAD" />
+      <Content Include=".git\modules\astal\refs\remotes\sameoldlab\feat\niri" />
+      <Content Include=".git\modules\astal\refs\remotes\sameoldlab\HEAD" />
+      <Content Include=".git\modules\astal\refs\remotes\sameoldlab\main" />
+      <Content Include=".git\objects\01\863c72a67b4c768dc69ba10b12104245aac1fc" />
+      <Content Include=".git\objects\04\4482858f48349162d2c8d8ce427c7f1c652f26" />
+      <Content Include=".git\objects\05\863562a2d94e9bb21165d07cfab00729270bc5" />
+      <Content Include=".git\objects\06\bbc59f96d51ae8e7d4d05cd8d8932b209538bf" />
+      <Content Include=".git\objects\09\7f530b25c1701f76eeb0ab29cf44cca91f6d43" />
+      <Content Include=".git\objects\09\a66043a80b6c54205507dc2c6811f9ed4ffb63" />
+      <Content Include=".git\objects\0a\9ce4570279c146f187ed364f76a6ae9f68e990" />
+      <Content Include=".git\objects\0b\04ac690e3ebdd208cdb1a08752d8e16202294d" />
+      <Content Include=".git\objects\0e\7739d87b783a01026a57675e7e29d9137c78f2" />
+      <Content Include=".git\objects\1b\e1a2428b9636d3b49ce609be49834b7dd66409" />
+      <Content Include=".git\objects\1c\3eb8842a5c40f631b6cf3ef8f52258b58196d8" />
+      <Content Include=".git\objects\1d\74e21965c4f858f5f818a270e64e1bfad7d843" />
+      <Content Include=".git\objects\2f\e7bbbf65feeaabab9234efe7798d6ea071e87e" />
+      <Content Include=".git\objects\30\b3439c1d21e4886fde8cde6ff7afbf7a912f95" />
+      <Content Include=".git\objects\32\3f252143c5fa080345c0c67fefd5459d2f0195" />
+      <Content Include=".git\objects\33\4a9818a577d8bca63d7958552251982b6de0ef" />
+      <Content Include=".git\objects\34\024dc5e99168979b646fb9a00f46e3a95ddc4e" />
+      <Content Include=".git\objects\36\7c9bc3c41fb15d2924cfa770c902f62fb24462" />
+      <Content Include=".git\objects\37\4044edbc072aaab02fa36207bf9f5e1e88f94d" />
+      <Content Include=".git\objects\3e\5319bf9159d8793552c4d6ac3f843d42f17435" />
+      <Content Include=".git\objects\44\d3d5bf9343a766f2c9489fa86cf795d4308f50" />
+      <Content Include=".git\objects\4b\62c95d44e73f91242b13a56184373c24a30b1b" />
+      <Content Include=".git\objects\52\94e1a3c7c550dace465296af4a5333c882659f" />
+      <Content Include=".git\objects\53\34b9d20e7472f78505ba65b1a169814f1fd1cd" />
+      <Content Include=".git\objects\59\9d497068bc26cd6a54ef42cd30e7c9a096fa62" />
+      <Content Include=".git\objects\5a\7f9010b000d72cdd8ac00b027d004fdea27123" />
+      <Content Include=".git\objects\61\b6fb731a2b3624a8878879396e2dd1e669571d" />
+      <Content Include=".git\objects\65\c0992296588d09188e4b1bcbed7d33207413cd" />
+      <Content Include=".git\objects\69\9b9e5788de396e9dd445aa8bc7b452a93bc574" />
+      <Content Include=".git\objects\6b\baf1089859f298f8f92579e1479900b49b3d38" />
+      <Content Include=".git\objects\72\b713f3e2391513ccc9fbd3fc318339aec746a8" />
+      <Content Include=".git\objects\7a\9bfb0e61939cd1072a155708d6315cc2e94d05" />
+      <Content Include=".git\objects\7b\08163cebc50fb3e777eea4881b68fcebc10590" />
+      <Content Include=".git\objects\7d\b83ebeac69d32ef10852b5755564ce1b7994fb" />
+      <Content Include=".git\objects\80\bf973446a3a73408a18d77dfd8dba83b2bd86f" />
+      <Content Include=".git\objects\84\5a5007967f72c268cc77af6cd10c5ed5f455d9" />
+      <Content Include=".git\objects\8a\b85fac2a21fe4e4ec939659412d22e3461b874" />
+      <Content Include=".git\objects\8b\850011ddc9bbb2ff745e6dcfbcba04e8e8f23a" />
+      <Content Include=".git\objects\8d\201b012a4fef85ae2df0b4d80492831f8d6f64" />
+      <Content Include=".git\objects\91\5daa8e58c06f812bd7ec35bcf9beaf5ea26a91" />
+      <Content Include=".git\objects\92\85e2cf1627410ed97acf76a2b9450296b7191b" />
+      <Content Include=".git\objects\92\b9da79adda9c2da914352698c77f5e3f20056b" />
+      <Content Include=".git\objects\92\ef00dff0248f23661061dfc41b571bd59ef7b3" />
+      <Content Include=".git\objects\96\d0f594a0074a2e3ee3333559be23c75243cc75" />
+      <Content Include=".git\objects\a4\98756b3b6ded18adf10a604bd6ff03bcd75788" />
+      <Content Include=".git\objects\a7\4c4df47cc0da94345e190b801787927a2f5e1a" />
+      <Content Include=".git\objects\a9\ccc4b1e8de8f797959ad391fd11691dba9518d" />
+      <Content Include=".git\objects\ab\2b9f1d05ac2b61a1f85cb4183b68cce1aa19f1" />
+      <Content Include=".git\objects\ab\93734b9a218c3f93196c981d7debde489993fb" />
+      <Content Include=".git\objects\ad\98573ee974aa10c0458dac75e7d44bbfad18c2" />
+      <Content Include=".git\objects\af\a61a95af1f9e0ddf17455e9d519dc82799633a" />
+      <Content Include=".git\objects\b0\aae9dd6b7b5a6b8275a8ed8620bca8ac069bc7" />
+      <Content Include=".git\objects\c4\586abba60fadc68daa6955a9756e0873fc04af" />
+      <Content Include=".git\objects\c9\4d07f88f751dd3e877b60025ada0352a25723c" />
+      <Content Include=".git\objects\c9\902c746298a829cd46f6dad7585a640de13d5d" />
+      <Content Include=".git\objects\cf\5106f5af585b80b4151cf46b1fc5f59e6ed82b" />
+      <Content Include=".git\objects\d0\c9b4482eb0b06022ab5861fc4eff9d884a77c8" />
+      <Content Include=".git\objects\d1\0f7c231b3dec2c52427dea013909c3b062958c" />
+      <Content Include=".git\objects\d2\840b565d577cb90c05656bded685366d596b5f" />
+      <Content Include=".git\objects\dd\c6b3a3fb6e45b486dd23a3da116aa149975a0b" />
+      <Content Include=".git\objects\df\87cf951fb4858ab7a76b68dd479c98b2df2404" />
+      <Content Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+      <Content Include=".git\objects\ef\12f02e8545b0df4bf721025e48f9773e1ad76b" />
+      <Content Include=".git\objects\ef\4c9d18e440aae33813b3d2259fcade98575108" />
+      <Content Include=".git\objects\f5\9ebfbdf03d1912a1d3bb9babeba3f4a5e79242" />
+      <Content Include=".git\objects\f7\a4f9ce295508bda946bc93c9a1fe2b1df6525a" />
+      <Content Include=".git\ORIG_HEAD" />
+      <Content Include=".git\refs\heads\master" />
+      <Content Include=".git\refs\remotes\origin\HEAD" />
+      <Content Include=".git\refs\remotes\origin\master" />
+      <Content Include=".idea\.gitignore" />
+      <Content Include=".idea\encodings.xml" />
+      <Content Include=".idea\indexLayout.xml" />
+      <Content Include=".idea\projectSettingsUpdater.xml" />
+      <Content Include=".idea\vcs.xml" />
+      <Content Include=".idea\workspace.xml" />
+      <Content Include=".vscode\c_cpp_properties.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include=".git\modules\astal\objects\info\" />
+      <Folder Include=".git\modules\astal\refs\tags\" />
+      <Folder Include=".git\objects\info\" />
+      <Folder Include=".git\objects\pack\" />
+      <Folder Include=".git\refs\tags\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Gtk4DotNet" Version="7.0.33-beta-33" />
+      <PackageReference Include="Kadlet" Version="0.1.0" />
+      <PackageReference Include="Rena.Interop.XKBCommon" Version="1.0.1" />
+    </ItemGroup>
+
+</Project>
